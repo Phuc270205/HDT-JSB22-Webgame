@@ -1,0 +1,110 @@
+/* .content{
+    position:relative;
+    height: 200px;
+    background-color: blue;
+    margin: 20px;
+
+
+}
+
+.box{
+    position:absolute;
+
+    width: 100px;
+    height: 100px;
+    background-color: brown;
+
+
+}
+
+
+img{
+    position: relative;
+    top: 50px;
+    left: 50px;
+    max-width: 100%;
+    outline: 2px solid  #000;
+
+
+}
+
+
+
+ */
+ /* *{
+     margin: 0px;
+     padding: 0px;
+ }
+
+ body{
+    height: 200vh;
+
+
+ }
+
+ .content{
+    height: 400px;
+    width: 100%;
+    background-color: cornflowerblue;
+
+ }
+
+ ul{
+    padding: 10px;
+    background-color: crimson;
+    display: flex;
+    position: fixed;
+    justify-content: space-between;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+ }
+
+ a{
+
+    text-decoration: none;
+    color: darkgreen;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+ }
+
+ ul li{
+     list-style: none;
+ } */
+
+.box{
+    border: solid 1px;  
+    min-height: 300px;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+ }
+
+.box div{
+
+    margin: 5px;
+    text-align: center;
+    background-color: green;
+ 
+}
+
+.box div:nth-child(1){
+    height:70px ;
+    width: 70px;
+    line-height:70px ;
+
+}
+.box div:nth-child(2){
+    height:50px ;
+    width: 50px;
+    line-height:50px ;
+
+}
+.box div:nth-child(3){
+    height:30px ;
+    width: 30px;
+    line-height:30px ;
+
+}

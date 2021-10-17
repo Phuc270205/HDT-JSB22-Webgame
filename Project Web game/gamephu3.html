@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./gamephu3.css">
+</head>
+
+<body>
+    <div class="container">
+        <nav>
+            <div class="max-width">
+                <ul class="menu">
+                    <!-- ul: danh sach khong thu tu -->
+                    <a>
+                        <li>SLG</li>
+                    </a>
+
+                </ul>
+            </div>
+        </nav>
+
+        <div class="sliceshow">
+            <div class="shoes-image">
+                <div class="slideshow-container">
+
+                    <div class="mySlides fade">
+                        <div class="numbertext">1 / 3</div>
+                        <div class="anhsize"> <img src="https://vnreview.vn/image/17/18/46/1718467.jpg?t=1507999914487" style="width:100%"></div>
+
+                        <div class="text">Caption Text</div>
+                    </div>
+
+                    <div class="mySlides fade">
+                        <div class="numbertext">2 / 3</div>
+                        <div class="anhsize"> <img src="https://www.techsignin.com/wp-content/uploads/2018/07/clash-of-clan-bi-ke-xau-loi-dung-rua-tien.jpg" style="width:100%"></div>
+
+                        <div class="text">Caption Two</div>
+                    </div>
+
+                    <div class="mySlides fade">
+                        <div class="numbertext">3 / 3</div>
+                        <div class="anhsize"> <img src="https://cdn.akamai.steamstatic.com/steam/apps/300080/capsule_616x353.jpg?t=1573144180" style="width:100%"></div>
+
+                        <div class="text">Caption Three</div>
+                    </div>
+
+                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+                </div>
+                <br>
+
+                <div style="text-align:center">
+                    <span class="dot" onclick="currentSlide(1)"></span>
+                    <span class="dot" onclick="currentSlide(2)"></span>
+                    <span class="dot" onclick="currentSlide(3)"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <div class="webgame">
+        <div class="box1">
+            <div class="box">
+                <iframe width="100%" height="100%" src="https://www.youtube.com/embed/NQIwNH0A3OE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+            </div>
+            <div class="box">
+                <iframe width="100%" height="100%" src="https://www.youtube.com/embed/d5mf2anYGxQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </div>
+        
+
+        <div class="box2">
+           <div>
+               
+            <a href="https://en.wikipedia.org/wiki/Strategy_game#:~:text=Chess%20is%20one%20of%20the%20most%20well-known%20and,have%20a%20high%20significance%20in%20determining%20the%20outcome.">Link for more information</a>
+            <br>
+            What Does SLG game Mean?<br>
+            A strategy game or strategic game is a game (e.g. a board game) in which the players' uncoerced, and often autonomous<br> 
+            decision-making skills have a high significance in determining the outcome. Almost all strategy games require internal<br>
+            decision tree-style thinking, and typically very high situational awareness. <br>
+      
+             <img width="100%"src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRa0K-jnHbHS2iQhJgiTPZVk_1ib5YYPptNuA&usqp=CAU" alt="">
+        </div>
+
+      
+        </div>
+    </div>
+
+        <script>
+            var slideIndex = 1;
+            showSlides(slideIndex);
+
+            function plusSlides(n) {
+                showSlides(slideIndex += n);
+            }
+
+            function currentSlide(n) {
+                showSlides(slideIndex = n);
+            }
+
+            function showSlides(n) {
+                var i;
+                var slides = document.getElementsByClassName("mySlides");
+                var dots = document.getElementsByClassName("dot");
+                if (n > slides.length) { slideIndex = 1 }
+                if (n < 1) { slideIndex = slides.length }
+                for (i = 0; i < slides.length; i++) {
+                    slides[i].style.display = "none";
+                }
+                for (i = 0; i < dots.length; i++) {
+                    dots[i].className = dots[i].className.replace(" active", "");
+                }
+                slides[slideIndex - 1].style.display = "block";
+                dots[slideIndex - 1].className += " active";
+            }
+        </script>
+
+
+
+
+
+    </div>
+
+    </div>
+</body>
+
+</html>

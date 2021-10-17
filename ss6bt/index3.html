@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+      let myDog = {
+    "name": "Ngáo",
+    "legs": 4,
+    "friends": ["everything"]
+}
+console.log(myDog, " tên chưa đổi");
+myDog.name = "Husky";
+
+
+//  thêm thuộc tính màu cho 
+myDog.color = "Green"
+console.log(myDog, "sau khi thêm thuộc tính màu");
+
+// xóa thuộc tính friends 
+delete myDog.friends;
+console.log(myDog, "sau khi xóa thuộc tính friends");
+
+
+    </script>
+</body>
+</html>

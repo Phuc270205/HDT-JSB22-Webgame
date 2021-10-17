@@ -1,0 +1,18 @@
+p {
+    color: red;
+}
+
+.dp-inline {
+    display: inline;
+}
+
+/* goi toi the co id la dp-inline-block */
+
+#dp-inline-block {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+    padding: 20px;
+    background-color: lightcoral;
+}

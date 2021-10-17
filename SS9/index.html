@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <style>
+    #info {
+      display: flex;
+      flex-direction: column;
+      width: 300px;
+    }
+
+    #info input {
+      padding: 10px 20px;
+    }
+    button{
+      margin-top: 10px;
+    }
+  </style>
+
+</head>
+
+<body>
+  <!-- VD
+  <p> Click the button to change something</p>
+  <button id="myBtn" onclick="myFunction()">Try it</button>
+  <p id="demo" >
+  </p> -->
+
+  <h1 id="tieuDe">
+    Form thông tin người dùng
+  </h1>
+  <div class="info-box">
+
+    <form id="info">
+      <p>Name:</p>
+      <input type="text" name="name" placeholder="Người dùng nhập vào tên">
+
+      <p>Email:</p>
+      <input type="text" name="email" placeholder="Người dùng nhập vào Email">
+
+      <p>Website:</p>
+      <input type="text" name="website" placeholder="Người dùng nhập vào website">
+
+      <p>Comment:</p>
+      <input type="text" name="comment" placeholder="Người dùng nhập vào comment">
+
+
+      <button type="submit">Submit</button>
+    </form>
+
+
+  </div>
+
+
+
+  <script src="./app.js"></script>
+</body>
+
+</html>

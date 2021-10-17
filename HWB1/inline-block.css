@@ -1,0 +1,14 @@
+div{
+    display: inline-block;
+    
+}
+
+.dp-inline-block{
+ display: inline-block;
+ background-color: green;
+ width: 100px;
+ height: 100px;
+ border: 1px solid red;
+
+
+}

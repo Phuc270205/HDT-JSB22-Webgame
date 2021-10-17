@@ -1,0 +1,52 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    outline: none;
+}
+.menu{
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    
+}
+nav{
+    background-color: black;
+    color: white;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    position: fixed;
+}
+
+.task {
+    width: 1300px;
+    padding-left: 5%;
+    
+}
+.rubix-overview{
+    width: 400px;
+    height: 100%;
+    /* background-color: tomato; */
+    border: 1px solid red;
+    cursor: pointer;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.rubix-image{
+    height: 350px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+   
+}
+
+.on{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 100px;
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+
+
+
+
+    
+
+    <script>
+
+
+let a = prompt("Nhập lương của bạn (triệu VND)_ tối đa 15 triêu VND");
+if (a < 7 && a > 0) {
+    //  nếu a < 7 đồng thời a cũng phải >0
+    let tax = 0.1; // 0.1 = 10% 
+    let lr = a - (a * tax);
+    alert("Lương thật sau khi trừ thuế thu nhập: " + lr + " triệu VND");
+}
+else if (a < 15 && a >= 7) {
+    //  nếu a < 7 đồng thời a cũng phải >0
+    let tax = 0.2; // 0.2 = 20% 
+    let lr = a - (a * tax);
+    alert("Lương thật sau khi trừ thuế thu nhập: " + lr + " triệu VND");
+}
+else if(a == 15){
+    let tax = 0.3; // 0. = 30% 
+    let lr = a - (a * tax);
+    alert("Lương thật sau khi trừ thuế thu nhập: " + lr + " triệu VND");
+}
+    </script>
+</body>
+</html>

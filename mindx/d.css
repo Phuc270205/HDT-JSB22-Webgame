@@ -1,0 +1,9 @@
+.te{
+    display: flex;
+    flex-direction:row;
+    padding-bottom: 30px;
+}
+
+i{
+    padding-right: 10px;
+}

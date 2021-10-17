@@ -1,0 +1,89 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    outline: none;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.max-width {
+    width: 100%;
+    padding-left: 10%;
+}
+
+nav {
+    background-color: rgb(209, 206, 28);
+    color: black;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+
+    position: fixed;
+}
+
+
+
+/* chinh anh */
+.shoes-image{
+    height: 700px;
+
+}
+
+.img{
+    width: 100%;
+    height: 100%;
+}
+
+.img-box{
+    height: 30%;
+}
+
+.shoes-box{
+    width: 200px;
+    height: 100%;
+    /* background-color: tomato; */
+    border: 1px solid red;
+    cursor: pointer;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.shoes-product{
+    height: 350px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+   
+}
+
+.hah{
+    border: 1px solid black;
+    display: flex;
+    margin-top: 20px;
+  
+
+}
+
+.blog{
+
+    border: 1px solid black;
+    display: flex;
+    width: 100%;
+    height: 300px;
+    
+}
+
+.back{
+    border: 1px solid black;
+    height: 900px;
+    width: 40%;
+
+}

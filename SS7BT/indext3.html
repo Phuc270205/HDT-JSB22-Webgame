@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+  let myAnsers = []; 
+let stop = true;
+do {
+  
+  let input = prompt("EM ăn cơm chưa???");
+
+  if (myAnsers.length == 1) {
+    input = prompt("Em có muốn ăn bánh ngọt hemmm!!")
+  }
+  else if (myAnsers.length == 2) {
+    input = prompt("Em có nhớ anh không");
+  }
+  else if (myAnsers.length == 3) {
+    input = prompt("Em buồn ngủ chưa");
+  }
+  else if (myAnsers.length == 4) {
+    input = prompt("G9 em");
+  }
+  else {
+    console.log("");
+  }
+  myAnsers.push(input);
+
+
+}
+while (myAnsers.length < 5 && stop == true);
+
+
+    </script>
+</body>
+</html>
