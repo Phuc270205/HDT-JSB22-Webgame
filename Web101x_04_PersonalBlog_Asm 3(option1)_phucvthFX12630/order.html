@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./form.css">
+
+  <style>
+    #info {
+      display: flex;
+      flex-direction: column;
+      width: 300px;
+    }
+
+    #info input {
+      padding: 10px 20px;
+    }
+    button{
+      margin-top: 10px;
+    }
+  </style>
+
+</head>
+
+<body>
+ 
+  <div class="tieude">
+
+    <h1 id="tieuDe">
+      Order now
+    </h1>
+  </div>
+  
+  <div class="info-box">
+
+    <form id="info">
+      <p>Cake Name:</p>
+      <input id="name" type="text" name="name" placeholder="Người dùng nhập vào tên">
+
+      <p>Your Name:</p>
+      <input id="email" type="text" name="email" placeholder="Người dùng nhập vào Email">
+
+      <p>Message:</p>
+      <input id="website" type="text" name="website" placeholder="Người dùng nhập vào website">
+      <p>Includes:</p>
+      <select id="how-to-find">
+        <option value="Friends">Friends</option>
+        <option value="Facebook">Facebook</option>
+        <option value="Youtube">Youtube</option>
+        <option value="News">News</option>
+      </select>
+      <p>Deliver Date:</p>
+      <input id="comment" type="text" name="comment" placeholder="Người dùng nhập vào comment">
+      <p>Deliver to:</p>
+      <input id="comment" type="text" name="comment" placeholder="Người dùng nhập vào comment">
+      <p>Call before deliver:</p>
+      <input type="radio" id="css" name="fav_language" value="CSS" > <label for="html">Yes</label>
+      <input type="radio" id="css" name="fav_language" value="CSS"> <label for="html">No</label>
+
+
+
+
+      <button type="submit">Submit</button>
+    </form>
+
+
+  </div>
+
+
+
+  <script src="./contact.js"></script>
+</body>
+
+</html>
