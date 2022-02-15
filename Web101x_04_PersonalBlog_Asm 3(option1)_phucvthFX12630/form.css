@@ -1,0 +1,18 @@
+.tieude{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.info-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid Black;
+    width: 310px;
+    margin-left: 770px;
+    padding-bottom:20px;
+    background-color: black;
+    color: white;
+}

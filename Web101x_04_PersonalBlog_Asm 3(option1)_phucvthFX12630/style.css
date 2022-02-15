@@ -29,6 +29,7 @@ nav {
 
 
 
+/* chinh anh */
 .shoes-image{
     height: 700px;
 
@@ -46,8 +47,10 @@ nav {
 .shoes-box{
     width: 200px;
     height: 100%;
+    /* background-color: tomato; */
     border: 1px solid red;
     cursor: pointer;
+
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -109,3 +112,14 @@ nav {
     transition: all 1s; 
 }
 
+.max-width .menu .haha{
+    text-decoration: none;
+}
+.fo{
+    background-color: black;
+    height: 80px;
+    width: 100%;
+}
+.fo p{
+    color: white;
+}

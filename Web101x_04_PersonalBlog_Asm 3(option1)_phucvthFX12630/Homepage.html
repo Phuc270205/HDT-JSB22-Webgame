@@ -6,36 +6,43 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-
+<link href="https://pro.fontawesome.com/releases/v5.12.0/css/all.css" rel="stylesheet">
     <link rel="stylesheet" href="./style.css">
 </head>
 
 <body>
-
+  
 
 
     <div class="containter">
-     
+        <!-- code thanh nav tai day -->
         <nav>
             <div class="max-width">
                 <ul class="menu">
-                
+                    <!-- ul: danh sach khong thu tu -->
                     <a>
-                        <li><h1>Phuc's Cake</h1></li>
+                        <li><h1> <a href="./Homepage.html">Phuc's Cake</a></h1></li>
                     </a>
                   
                     <a>
-                        <li>Home</li>
+                        <li>
+                           <div class="haha"> <a href="./about.html">Home</a></div>
+                        </li>
                     </a>
                     <a>
-                        <li>Shop</li>
+                        <li>
+                            <label for="cars">Choose a cake:</label>
+                            <select onchange="this.options[this.selectedIndex].value && (window.location = this.options[this.selectedIndex].value);">
+                                <option value="">Select...</option>
+                                <option value="./details-1.html">white-blue cake</option>
+                                <option value="./details-2.html">Rose cake</option>
+                                <option value="./details-3.html">Mocha Coffee Cake</option>
+                                <option value="./details-4.html">Chocolate Cake</option>
+                              </select>
+                        </li>
                     </a>
-                    <a>
-                        <li>News</li>
-                    </a>
-                    <a>
-                        <li>About-Us</li>
-                    </a>
+                   
+                   
                 </ul>
             </div>
         </nav>
@@ -45,7 +52,6 @@
             <img width="100%" height="100%" src="https://ichef.bbci.co.uk/food/ic/food_16x9_832/recipes/rainbow_cake_20402_16x9.jpg" alt="Not Found">
         </div>
 
-       
         <div class="shoes-product">
             <div class="shoes-box">
                 <div class="img-box">
@@ -53,7 +59,7 @@
                 </div>
         
                     <h4>white-blue cake</h4>
-                    <a href="./details-1.html">Link-cake-infor</a>
+                   
           
                 <p>Introduce: Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, facilis deserunt cupiditate
                     ad provident quisquam, ipsam delectus quos ipsum totam doloribus accusamus rem velit. Dolores
@@ -64,7 +70,7 @@
                     <img class="img" src="https://www.pngkey.com/png/full/789-7892614_2000-x-2000-4-cake-decorating.png" alt="">
                 </div>
                 <h4>Rose cake</h4>
-                <a href="./details-2.html">Link-cake-infor</a>
+                
                 <p>Introduce: Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, facilis deserunt cupiditate
                     ad provident quisquam, ipsam delectus quos ipsum totam doloribus accusamus rem velit. Dolores
                     obcaecati amet quae totam iste!</p>
@@ -74,7 +80,7 @@
                     <img class="img" src="http://images.kglobalservices.com/www.kelloggs.ca_en/en_ca/recipe/kicrecipe-13689/recip_img-5540585_mochacoffeecake-2000x2000.jpg" alt="">
                 </div>
                 <h4> Mocha Coffee Cake</h4>
-                <a href="./details-3.html">Link-cake-infor</a>
+               
                 <p>Introduce: Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, facilis deserunt cupiditate
                     ad provident quisquam, ipsam delectus quos ipsum totam doloribus accusamus rem velit. Dolores
                     obcaecati amet quae totam iste!</p>
@@ -84,7 +90,7 @@
                     <img class="img" src="https://honeybeescakes.co.uk/wp-content/uploads/2021/03/Twirl-chocolate-cake.jpg" alt="">
                 </div>
                 <h4>Chocolate Cake</h4>
-                <a href="./details-4.html">Link-cake-infor</a>
+               
                 <p>Introduce: Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, facilis deserunt cupiditate
                     ad provident quisquam, ipsam delectus quos ipsum totam doloribus accusamus rem velit. Dolores
                     obcaecati amet quae totam iste!</p>
@@ -94,8 +100,13 @@
 
     </div>
 
-  <div class="hah"> <footer>Cre: Phuc <a href="./about.html">Link-web-description</a> </footer></div> 
+    <div class="fo">
+        <footer>
+            <p>Cre:Phuc</p>
+        </footer>
+    </div>
 </body>
 
 
 </html>
+
