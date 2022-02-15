@@ -41,46 +41,7 @@
             </div>
           </nav>
 
-        <div class="sliceshow">
-            <div class="shoes-image">
-                <div class="slideshow-container">
-
-                    <div class="mySlides fade">
-                        <div class="numbertext"></div>
-                        <div class="anhsize"> <img src="https://uploadstatic-sea.mihoyo.com/contentweb/20210820/2021082014434271063.jpg" style="width:100%"></div>
-
-                        <div class="text"></div>
-                    </div>
-
-                    <div class="mySlides fade">
-                        <div class="numbertext"></div>
-                        <div class="anhsize"> <img src="http://cdn.cloudflare.steamstatic.com/steam/apps/9900/capsule_616x353.jpg?t=1602006243" style="width:100%"></div>
-
-                        <div class="text"></div>
-                    </div>
-
-                    <div class="mySlides fade">
-                        <div class="numbertext"></div>
-                        <div class="anhsize"> <img src="https://cdn.akamai.steamstatic.com/steam/apps/1676120/capsule_616x353.jpg?t=1624546703" style="width:100%"></div>
-
-                        <div class="text"></div>
-                    </div>
-
-                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-                    <a class="next" onclick="plusSlides(1)">&#10095;</a>
-
-                </div>
-                <br>
-
-                <div style="text-align:center">
-                    <span class="dot" onclick="currentSlide(1)"></span>
-                    <span class="dot" onclick="currentSlide(2)"></span>
-                    <span class="dot" onclick="currentSlide(3)"></span>
-                </div>
-            </div>
-        </div>
-    </div>
-
+         <div class="anh"> <img src="https://uploadstatic-sea.mihoyo.com/contentweb/20210820/2021082014434271063.jpg" style="width:70%"></div>
 
 
 
@@ -108,41 +69,15 @@
             is a video game that combines aspects of a role-playing video game <br>
             and a massively multiplayer online game.
              <img width="100%"src="https://thumbs.dreamstime.com/b/mmorpg-massively-multiplayer-online-role-playing-15580375.jpg" alt="">
+             <div class="comment"><input type="text" placeholder="enter your cmt "></div> 
+             <button type="submit" form="form1" value="Submit">Submit</button>
         </div>
           
       
         </div>
     </div>
 
-        <script>
-            var slideIndex = 1;
-            showSlides(slideIndex);
-
-            function plusSlides(n) {
-                showSlides(slideIndex += n);
-            }
-
-            function currentSlide(n) {
-                showSlides(slideIndex = n);
-            }
-
-            function showSlides(n) {
-                var i;
-                var slides = document.getElementsByClassName("mySlides");
-                var dots = document.getElementsByClassName("dot");
-                if (n > slides.length) { slideIndex = 1 }
-                if (n < 1) { slideIndex = slides.length }
-                for (i = 0; i < slides.length; i++) {
-                    slides[i].style.display = "none";
-                }
-                for (i = 0; i < dots.length; i++) {
-                    dots[i].className = dots[i].className.replace(" active", "");
-                }
-                slides[slideIndex - 1].style.display = "block";
-                dots[slideIndex - 1].className += " active";
-            }
-        </script>
-
+      
 
 
 
