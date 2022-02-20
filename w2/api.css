@@ -1,9 +1,9 @@
 .api{
-    border: solid 2px greenyellow;
+    border: solid 2px red;
     height: 600px;
     width: 400px;
     border-radius: 15px;    
-    box-shadow: 2px 2px 2px  green ;
+    box-shadow: 2px 2px 2px  brown ;
 
     margin-left: 700px;
 }
