@@ -40,46 +40,7 @@
             </div>
           </nav>
 
-        <div class="sliceshow">
-            <div class="shoes-image">
-                <div class="slideshow-container">
-
-                    <div class="mySlides fade">
-                        <div class="numbertext"></div>
-                        <div class="anhsize"> <img src="https://shoptrongnghia.com/wp-content/uploads/2020/09/PES-2021-02.jpg" style="width:100%"></div>
-
-                        <div class="text"></div>
-                    </div>
-
-                    <div class="mySlides fade">
-                        <div class="numbertext"></div>
-                        <div class="anhsize"> <img src="https://tongkhomayphotocopy.com/wp-content/uploads/2020/09/m%C3%A1y-t%C3%ADnh-ch%C6%A1i-Game-FIFA4-t%E1%BA%A1i-H%E1%BA%A3i-Ph%C3%B2ng.jpg" style="width:100%"></div>
-
-                        <div class="text"></div>
-                    </div>
-
-                    <div class="mySlides fade">
-                        <div class="numbertext"></div>
-                        <div class="anhsize"> <img src="https://ichef.bbci.co.uk/live-experience/cps/624/cpsprodpb/9DAF/production/_111976304_mario_golfl.jpg" style="width:100%"></div>
-
-                        <div class="text"></div>
-                    </div>
-
-                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-                    <a class="next" onclick="plusSlides(1)">&#10095;</a>
-
-                </div>
-                <br>
-
-                <div style="text-align:center">
-                    <span class="dot" onclick="currentSlide(1)"></span>
-                    <span class="dot" onclick="currentSlide(2)"></span>
-                    <span class="dot" onclick="currentSlide(3)"></span>
-                </div>
-            </div>
-        </div>
-    </div>
-
+          <div class="anh"> <img src="https://tongkhomayphotocopy.com/wp-content/uploads/2020/09/m%C3%A1y-t%C3%ADnh-ch%C6%A1i-Game-FIFA4-t%E1%BA%A1i-H%E1%BA%A3i-Ph%C3%B2ng.jpg" style="width:70%"></div>
 
 
 
@@ -106,41 +67,15 @@
             A sports video game is a video game that simulates the practice of sports. <br> 
      
              <img width="100%"src="https://pm1.narvii.com/6193/3629a6e64f8964a190a2241ae1d6b43a11ead66e_hq.jpg" alt="">
+             <div class="comment"><input type="text" placeholder="enter your cmt "></div> 
+             <button type="submit" form="form1" value="Submit">Submit</button>
         </div>
           
       
         </div>
     </div>
 
-        <script>
-            var slideIndex = 1;
-            showSlides(slideIndex);
-
-            function plusSlides(n) {
-                showSlides(slideIndex += n);
-            }
-
-            function currentSlide(n) {
-                showSlides(slideIndex = n);
-            }
-
-            function showSlides(n) {
-                var i;
-                var slides = document.getElementsByClassName("mySlides");
-                var dots = document.getElementsByClassName("dot");
-                if (n > slides.length) { slideIndex = 1 }
-                if (n < 1) { slideIndex = slides.length }
-                for (i = 0; i < slides.length; i++) {
-                    slides[i].style.display = "none";
-                }
-                for (i = 0; i < dots.length; i++) {
-                    dots[i].className = dots[i].className.replace(" active", "");
-                }
-                slides[slideIndex - 1].style.display = "block";
-                dots[slideIndex - 1].className += " active";
-            }
-        </script>
-
+      
 
 
 

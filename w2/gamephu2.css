@@ -350,5 +350,9 @@ display: flex;
 }
 .comment input{
   height: 100px;
-  width: 200px;
+  width: 840px;
+}
+.anh{
+  margin-top: 125px;
+  margin-left: 400px;
 }

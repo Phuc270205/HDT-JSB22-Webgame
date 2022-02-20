@@ -1,0 +1,28 @@
+.api{
+    border: solid 2px red;
+    height: 600px;
+    width: 400px;
+    border-radius: 15px;    
+    box-shadow: 2px 2px 2px  brown ;
+
+    margin-left: 700px;
+}
+.ten{
+    margin-bottom: 20px;font-weight: bold;
+    margin-left: 5px;
+    color: white;
+    margin-top: 5px;
+}
+.anh{
+    margin-bottom: 200px;font-weight: bold; margin-left: 5px;color: white;
+}
+.nang{
+    margin-bottom: 20px;font-weight: bold; margin-left: 5px;color: white;
+}
+.Evolution{
+    font-weight: bold; margin-left: 5px;color: white;
+   
+}
+body{
+    background-color : black;
+}
