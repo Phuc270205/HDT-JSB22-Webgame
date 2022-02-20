@@ -351,8 +351,10 @@ display: flex;
 .comment input{
   height: 100px;
   width: 840px;
+ color: brown;
 }
 .anh{
   margin-top: 125px;
   margin-left: 400px;
+  
 }
